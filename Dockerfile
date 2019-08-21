@@ -9,6 +9,7 @@ LABEL maintainer="sparklyballs"
 RUN \
  echo "**** install packages ****" && \
  apk add --no-cache \
+        openssh \
 	curl \
 	findutils \
 	jq \
